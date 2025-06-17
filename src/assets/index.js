@@ -19,16 +19,7 @@ import jupyter from './tech/jupyter.png';
 import sql from './tech/sql.png';
 import aws from './tech/aws.png';
 
-import microsoft from './company/microsoft.jpg';
 import sunlife from './company/sunlife.png';
-import adani from './company/adani.png';
-import bn_software from './company/bn_software.jpg';
-import ericsson from './company/ericsson.png';
-import copernilabs_logo from './company/copernilabs_logo.jpg';
-
-import kamel_tourki from './testimonials/kamel_tourki.jpg';
-import nati_gezahegn from './testimonials/nati_gezahegn.jpg';
-import zakaria from './testimonials/zakaria.jpg';
 
 import sql_query_avatar from './sql_query_avatar.jpg';
 import pap_smear from './pap_smear.png';
@@ -46,12 +37,7 @@ export {
   sql_query_avatar,
   pap_smear,
   noname,
-  microsoft,
   sunlife,
-  adani,
-  bn_software,
-  ericsson,
-  copernilabs_logo,
   python,
   tensorflow,
   scikit_learn,
@@ -62,8 +48,5 @@ export {
   nodejs,
   jupyter,
   sql,
-  aws,
-  kamel_tourki,
-  nati_gezahegn,
-  zakaria,
+  aws
 };
