@@ -17,15 +17,7 @@ import {
   sql_query_avatar,
   pap_smear,
   noname,
-  microsoft,
   sunlife,
-  adani,
-  bn_software,
-  ericsson,
-  copernilabs_logo,
-  kamel_tourki,
-  nati_gezahegn,
-  zakaria,
 } from '../assets';
 
 export const navLinks = [
@@ -36,11 +28,7 @@ export const navLinks = [
   {
     id: 'work',
     title: 'Work',
-  },
-  {
-    id: 'contact',
-    title: 'Contact',
-  },
+  }
 ];
 
 const services = [
@@ -137,33 +125,6 @@ const experiences = [
   }
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      'An AI optimization prodigy for OFDM (mainly 5G), with outstanding problem solving skills and strong programming expertise, making him highly recommended.',
-    name: 'Kamel Tourki',
-    designation: 'Research and Standardization Manager',
-    company: 'Ericsson',
-    image: kamel_tourki,
-  },
-  {
-    testimonial:
-      'He has exemplified extraordinary prowess as a devoted, tireless, and imaginative AI master, coupled with remarkable personal qualities that radiate brilliance.',
-    name: 'Nathnael Gezahegn',
-    designation: 'CEO',
-    company: 'BN Technologies',
-    image: nati_gezahegn,
-  },
-  {
-    testimonial:
-      'Eskinder is an exceptional AI expert, demonstrating unmatched talent in research, critical thinking, and harnessing PyTorch and Keras to their fullest potential.',
-    name: 'Zakaria El Moutaki',
-    designation: 'Standardization Researcher',
-    company: 'Ericsson',
-    image: zakaria,
-  },
-];
-
 const projects = [
   {
     name: 'SQL Query Avatar',
@@ -223,4 +184,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
