@@ -17,7 +17,15 @@ import {
   sql_query_avatar,
   pap_smear,
   noname,
-  sunlife
+  microsoft,
+  sunlife,
+  adani,
+  bn_software,
+  ericsson,
+  copernilabs_logo,
+  kamel_tourki,
+  nati_gezahegn,
+  zakaria,
 } from '../assets';
 
 export const navLinks = [
