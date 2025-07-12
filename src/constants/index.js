@@ -18,6 +18,9 @@ import {
   pap_smear,
   noname,
   sunlife,
+  aws_cloud_practitioner,
+  aws_restart_graduate,
+  aws_educate_gen_ai
 } from '../assets';
 
 export const navLinks = [
@@ -184,4 +187,25 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+const certificates = [
+  {
+    title: "AWS Certified Cloud Practitioner",
+    description: "Earned July 2025. Valid for 3 years.",
+    image: aws_cloud_practitioner,
+    link: "https://www.credly.com/badges/10c6cc11-73e8-49ca-b3bc-137511e08187/public_url",
+  },
+  {
+    title: "AWS Educate Introduction to Generative AI",
+    description: "Earned Mar 2025.",
+    image: aws_educate_gen_ai,
+    link: "https://www.credly.com/badges/609403ca-695e-4586-888a-c4e5444b74fa/public_url",
+  },
+  {
+    title: "AWS re/Start Graduate",
+    description: "Graduated from the AWS re/Start program.",
+    image: aws_restart_graduate,
+    link: "https://www.credly.com/badges/61a233b9-b280-4f53-8957-5ddfc1338529/public_url",
+  },
+];
+
+export { services, technologies, experiences, projects, certificates };

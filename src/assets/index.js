@@ -19,6 +19,10 @@ import jupyter from './tech/jupyter.png';
 import sql from './tech/sql.png';
 import aws from './tech/aws.png';
 
+import aws_cloud_practitioner from './badge/aws-certified-cloud-practitioner.png';
+import aws_restart_graduate from './badge/aws-re-start-graduate.png';
+import aws_educate_gen_ai from './badge/aws-educate-introduction-to-generative-ai.png';
+
 import sunlife from './company/sunlife.png';
 
 import sql_query_avatar from './sql_query_avatar.jpg';
@@ -48,5 +52,8 @@ export {
   nodejs,
   jupyter,
   sql,
-  aws
+  aws,
+  aws_cloud_practitioner,
+  aws_restart_graduate,
+  aws_educate_gen_ai
 };

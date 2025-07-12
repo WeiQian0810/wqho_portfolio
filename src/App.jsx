@@ -3,6 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import {
   About,
   Experience,
+  Achievements,
   Hero,
   Navbar,
   Tech,
@@ -22,6 +23,7 @@ function App() {
         <Experience />
         <Tech />
         <Works />
+        <Achievements />
       </div>
     </BrowserRouter>
   );
