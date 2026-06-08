@@ -136,7 +136,7 @@ const experiences = [
     points: [
       'Led the design and implementation of an AI-powered Fraud Operations Automation platform.',
       'Designed Agentic AI workdflow integrating OCR, LLMs, APIs, and business-rule engines.',
-      'Achieved 99.8% accuracy in identity card number extraction through AI-driven document intelligence',
+      'Achieved 99.8% accuracy in identity card number extraction through AI-driven document intelligence.',
     ],
   }
 ];
