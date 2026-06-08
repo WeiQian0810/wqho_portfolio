@@ -18,6 +18,7 @@ import {
   pap_smear,
   noname,
   sunlife,
+  tngd,
   aws_cloud_practitioner,
   aws_restart_graduate,
   aws_educate_gen_ai
@@ -117,13 +118,25 @@ const experiences = [
     company_name: 'Sun Life Malaysia Assurance Berhad',
     icon: sunlife,
     iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Current',
+    date: 'Jan 2023 - Oct 2025',
     points: [
       'Delivered a multi-module business application (Data Extraction, Client Journey, Campaign Management) to enhance collaboration and information exchange between tech and business users.',
       'Built a production-ready AI Avatar platform using LLMs and NLP to translate natural language into SQL and voice insights, increasing BI adoption by 40%.',
       'Led analytics on insurance product persistency, developing automated dashboards that guided strategic retention efforts and improved KPIs.',
       'Designed an OCR-based IDP pipeline to extract structured tables from scanned PDFs, automating 70% of UAT workflows and extending across multiple business units.',
       'Developed a resume intelligence system for hiring automation, combining NLP and ML to score talent—recognized with a CEO Award nomination for business impact.'
+    ],
+  },
+  {
+    title: 'Data Scientist',
+    company_name: "Touch 'n Go Digital",
+    icon: tngd,
+    iconBg: '#E6DEDD',
+    date: 'Nov 2025 - Current',
+    points: [
+      'Led the design and implementation of an AI-powered Fraud Operations Automation platform.',
+      'Designed Agentic AI workdflow integrating OCR, LLMs, APIs, and business-rule engines.',
+      'Achieved 99.8% accuracy in identity card number extraction through AI-driven document intelligence',
     ],
   }
 ];
