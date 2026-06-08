@@ -24,6 +24,7 @@ import aws_restart_graduate from './badge/aws-re-start-graduate.png';
 import aws_educate_gen_ai from './badge/aws-educate-introduction-to-generative-ai.png';
 
 import sunlife from './company/sunlife.png';
+import tngd from './company/tngd.png';
 
 import sql_query_avatar from './sql_query_avatar.jpg';
 import pap_smear from './pap_smear.png';
@@ -42,6 +43,7 @@ export {
   pap_smear,
   noname,
   sunlife,
+  tngd,
   python,
   tensorflow,
   scikit_learn,
